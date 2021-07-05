@@ -1,6 +1,7 @@
 .box-especialidade {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   margin: 20px;
   border: 1px solid silver;
@@ -8,10 +9,13 @@
   box-shadow: 2px 3px 5px silver;
   background-color: rgb(75, 240, 226);
   transition: 0.5s;
+  font-size: 25px;
 }
+
 .box-especialidade:hover {
   transform: scale(1.1);
 }
+
 .imagem-especialista {
   display: flex;
   width: 250px;
@@ -19,8 +23,6 @@
   border-radius: 10px;
 }
 
-.nome-especialista {
-  font-weight: 600;
-  font-size: 18px;
-  margin-bottom: 10px;
+.divComponent{
+  background-color: red;
 }

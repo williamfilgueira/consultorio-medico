@@ -4,7 +4,14 @@ export const DivFotoTextoComponent = styled.div`
   .centralizer {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    font-size: 28px;
+    color: #909295;
+    p{
+      text-align: center;
+      margin: 0;
+    }
   }
   `;
 

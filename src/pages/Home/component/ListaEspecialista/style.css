@@ -1,9 +1,0 @@
-.lista {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  width: 1024px;
-  box-sizing: border-box;
-}

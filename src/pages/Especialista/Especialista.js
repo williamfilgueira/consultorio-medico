@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
+import { EspecialistaComponent } from "./style";
+import { EspecialistaFotos } from "./style";
+import {ContainedButtons} from "../../components/Button"
+const Especialista = () => (
+  <EspecialistaComponent>
+    <EspecialistaFotos>cardiaco</EspecialistaFotos>
 
-const Especialista =()=> (
-   
-    <div className="div-container">
-      <h1>Especialista</h1>
-     
-    </div>
- 
+    <ContainedButtons/>
+
+  </EspecialistaComponent>
 );
 
 export default Especialista;
